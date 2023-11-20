@@ -21,4 +21,4 @@ def create_memo(memo:Memo):
 def read_memo():
     return memos
 
-app.mount("/", StaticFiles(directory='static', html=True), name='staticFiles')
+app.mount("/", StaticFiles(directory='static', html=True), name='static')
